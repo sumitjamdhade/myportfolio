@@ -13,48 +13,12 @@
     --animate-fade-in-delay-2: fade-in .7s ease-in-out .2s forwards;
     --animate-fade-in-delay-3: fade-in .7s ease-in-out .2s forwards;
     --animate-fade-in-delay-4: fade-in .7s ease-in-out .2s forwards;
-    --animare-meteor: meteor 5s linear infinite;
+    --animate-linedrop: linedrop 5s linear infinite;
 
 }
 
-@keyframes float {
 
-    0%,
-    100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-}
-
-@keyframes pulse-subtle {
-
-    0%,
-    100% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0.7;
-    }
-}
-
-@keyframes fade-in {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-
-    }
-
-    to {
-        opacity: 0;
-        transform: translateY(0);
-    }
-}
-
-@keyframes meteor {
+@keyframes linedrop {
     0% {
         transform: rotate(215deg) translateX(0);
         opacity: 1;
@@ -94,7 +58,7 @@
 
 @utility text-glow {
     @apply relative;
-    text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
+    text-shadow: 0 0 10px rgba(167, 139, 250, 1);
 
 }
 
@@ -118,10 +82,10 @@
      hover:scale-105 active:scale-95;
 }
 
-@utility meteor {
-    @apply absolute bg-linear-to-r from-yellow-200 via-white to-transparent rounded-full;
+@utility linedrop {
+    @apply absolute bg-linear-to-r from-yellow-200 via-yellow-100 to-white rounded-full;
     box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
-    animation: var(--animate-meteor);
+    animation: var(--animate-linedrop);
 }
 
 #root {
