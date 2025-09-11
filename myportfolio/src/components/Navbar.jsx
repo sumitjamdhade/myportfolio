@@ -37,9 +37,10 @@ const Navbar = () => {
       )
     }>
       <div className="nav-container gradient-border h-15 border-border bg-[#0f0f0f] text-[18px] w-screen flex justify-between items-center px-20 rounded-full my-5 absolute z-100">
-        <p className="logo text-glow font-bold text-yellow-200">sumitjamdhade</p>
+        <p id='hi' className="logo text-glow font-bold text-yellow-200">sumitjamdhade</p>
 
         <div className='flex items-center'>
+
           {/* desktop */}
           <div className="hidden justify-center md:flex gap-5 ">
 
@@ -49,8 +50,8 @@ const Navbar = () => {
 
             ))}
 
-
           </div>
+
 
 
           {/* mobile */}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './navbar'
 import LineBackground from './LineBackground'
+import Hi from './Hi'
 
 const Home = () => {
   return (
@@ -11,6 +12,9 @@ const Home = () => {
 
       {/* Lines Background */}
       <LineBackground />
+
+      {/* Hello */}
+      <Hi />
 
     </div>
   )
