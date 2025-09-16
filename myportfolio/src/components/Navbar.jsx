@@ -14,7 +14,7 @@ const Navbar = () => {
 
 
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className='flex items-center'>
 
           {/* desktop */}
-          <div className="hidden justify-center md:flex gap-5 ">
+          <div className="hidden justify-center md:flex gap-5">
 
             {Navigation.map((item, key) => (
               <a className=' text-white text-sm hover:text-amber-200 transition-colors duration-500'

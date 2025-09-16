@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './navbar'
 import LineBackground from './LineBackground'
 import Hi from './Hi'
+import About from './About'
+
 
 const Home = () => {
   return (
@@ -12,9 +14,12 @@ const Home = () => {
 
       {/* Lines Background */}
       <LineBackground />
-
+    <main>
       {/* Hello */}
       <Hi />
+      <About />
+    </main>
+      
 
     </div>
   )
