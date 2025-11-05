@@ -4,6 +4,7 @@ import LineBackground from './LineBackground'
 import Hi from './Hi'
 import About from './About'
 import Skills from './Skills'
+import Projects from './Projects'
 
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
       <Hi />
       <About />
       <Skills />
+      <Projects />
     </main>
 
       

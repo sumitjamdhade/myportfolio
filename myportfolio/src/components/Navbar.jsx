@@ -8,7 +8,7 @@ const Navbar = () => {
     [
       { name: "Home", href: "#home" },
       { name: "Skills", href: "#skills" },
-      { name: "Project", href: "#project" },
+      { name: "Projects", href: "#projects" },
       { name: "Contact", href: "#contact" },
     ]
 
@@ -26,6 +26,7 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     }
   })
+
 
 
   return (
