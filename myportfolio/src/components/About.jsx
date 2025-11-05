@@ -34,9 +34,9 @@ const About = () => {
                     </div>
 
                     <div className='flex flex-col text-indigo-50 gap-4 '>
-                        <p className='card-hover h-10 bg-gray-700/20 border-2 border-gray-900 rounded-xl items-center'>Frontend Development</p>
-                        <p className='card-hover h-10 bg-gray-700/20 border-2 border-gray-900 rounded-xl items-center'>Java</p>
-                        <p className='card-hover h-10 bg-gray-700/20 border-2 border-gray-900 rounded-xl items-center'>Problem Solving</p>
+                        <p className='card-hover h-10 bg-gray-700/20 border-2 border-gray-900 rounded-xl flex justify-center items-center'>Frontend Development</p>
+                        <p className='card-hover h-10 bg-gray-700/20 border-2 border-gray-900 rounded-xl flex justify-center items-center'>Java</p>
+                        <p className='card-hover h-10 bg-gray-700/20 border-2 border-gray-900 rounded-xl flex justify-center items-center'>Problem Solving</p>
                     </div>
                 </div>
             </div>

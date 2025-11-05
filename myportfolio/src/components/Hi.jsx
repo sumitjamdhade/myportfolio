@@ -6,8 +6,8 @@ const Hi = () => {
       <div className='text-white text-6xl bold'>
 
         <span className='opacity-0 animate-fade-in' >Hi, I am </span>
-        <span className='opacity-0 text-amber-200 animate-fade-in-delay-1'>Sumit </span>
-        <span className='opacity-0 text-amber-200 animate-fade-in-delay-2'>Jamdhade</span>
+        <span className='opacity-0 text-amber-200 animate-fade-in-delay-1 font-semibold'>Sumit </span>
+        <span className='opacity-0 text-amber-200 animate-fade-in-delay-2 font-semibold'>Jamdhade</span>
          
       </div>
 

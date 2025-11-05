@@ -3,6 +3,7 @@ import Navbar from './navbar'
 import LineBackground from './LineBackground'
 import Hi from './Hi'
 import About from './About'
+import Skills from './Skills'
 
 
 const Home = () => {
@@ -12,15 +13,21 @@ const Home = () => {
       {/* Navigation Bar */}
       <Navbar />
 
+
       {/* Lines Background */}
       <LineBackground />
+
+
+      {/* Main Section */}
+
     <main>
       {/* Hello */}
       <Hi />
       <About />
+      <Skills />
     </main>
-      
 
+      
     </div>
   )
 }
