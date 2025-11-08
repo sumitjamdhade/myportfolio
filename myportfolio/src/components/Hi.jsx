@@ -15,7 +15,7 @@ const Hi = () => {
         I'm a front-end developer passionate about crafting clean, responsive, and user-friendly web interfaces. I specialize in turning design concepts into interactive experiences using technologies like HTML, CSS, JavaScript, and React. Whether it's building sleek dashboards or optimizing performance, I love solving real-world problems through elegant code.
       </p>
 
-      <div className='absolute bottom-0 animate-bounce text-xs text-amber-200 opacity-70 mt-10'>
+      <div className='absolute bottom-0 animate-bounce text-xs text-amber-200 opacity-70 mt-10 py-20'>
         scroll
       </div>
     </section>
